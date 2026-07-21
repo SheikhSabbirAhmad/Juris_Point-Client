@@ -127,20 +127,29 @@ const Footer = () => {
             <div className="space-y-4 text-sm">
 
               <div className="flex items-start gap-3">
+        <FaPhoneAlt className="text-[#F59E0B] mt-1 flex-shrink-0" />
 
-                <FaPhoneAlt className="text-[#F59E0B] mt-1 flex-shrink-0" />
-
-                <span>+880 1712-345678</span>
-
-              </div>
+        <a
+          href="tel:+8801700000000"
+          className="hover:text-[#F59E0B] transition"
+          aria-label="Call Juris Point"
+        >
+         +880 1700-000000
+        </a>
+     </div>
 
               <div className="flex items-start gap-3">
+        <FaEnvelope className="text-[#F59E0B] mt-1 flex-shrink-0" />
 
-                <FaEnvelope className="text-[#F59E0B] mt-1 flex-shrink-0" />
-
-                <span>info@jurispoint.com</span>
-
-              </div>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=info@jurispoint.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-[#F59E0B] transition"
+>
+          info@jurispoint.com
+           </a>
+    </div>
 
               <div className="flex items-start gap-3">
 
@@ -158,37 +167,43 @@ const Footer = () => {
 
             {/* Social */}
 
-            <div className="flex gap-3 mt-6">
+          <div className="flex gap-3 mt-6">
+  <Link
+    href="https://facebook.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#1F2937] hover:bg-[#F59E0B] hover:text-white flex items-center justify-center transition-all duration-300"
+  >
+    <FaFacebookF />
+  </Link>
 
-              <Link
-                href="#"
-                className="w-9 h-9 rounded-full bg-[#1F2937] hover:bg-[#F59E0B] hover:text-white flex items-center justify-center transition-all duration-300"
-              >
-                <FaFacebookF />
-              </Link>
+  <Link
+    href="https://instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#1F2937] hover:bg-[#F59E0B] hover:text-white flex items-center justify-center transition-all duration-300"
+  >
+    <FaInstagram />
+  </Link>
 
-              <Link
-                href="#"
-                className="w-9 h-9 rounded-full bg-[#1F2937] hover:bg-[#F59E0B] hover:text-white flex items-center justify-center transition-all duration-300"
-              >
-                <FaInstagram />
-              </Link>
+  <Link
+    href="https://twitter.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#1F2937] hover:bg-[#F59E0B] hover:text-white flex items-center justify-center transition-all duration-300"
+  >
+    <FaTwitter />
+  </Link>
 
-              <Link
-                href="#"
-                className="w-9 h-9 rounded-full bg-[#1F2937] hover:bg-[#F59E0B] hover:text-white flex items-center justify-center transition-all duration-300"
-              >
-                <FaTwitter />
-              </Link>
-
-              <Link
-                href="#"
-                className="w-9 h-9 rounded-full bg-[#1F2937] hover:bg-[#F59E0B] hover:text-white flex items-center justify-center transition-all duration-300"
-              >
-                <FaLinkedinIn />
-              </Link>
-
-            </div>
+  <Link
+    href="https://linkedin.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#1F2937] hover:bg-[#F59E0B] hover:text-white flex items-center justify-center transition-all duration-300"
+  >
+    <FaLinkedinIn />
+  </Link>
+</div>
 
           </div>
 

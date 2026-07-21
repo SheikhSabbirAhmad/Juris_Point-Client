@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import {
   FaBalanceScale,
   FaBriefcase,
@@ -309,6 +308,8 @@ export default function OurPracticeArea() {
             ))}
 
           </div>
+
+          
 
         )}
               </div>
